@@ -1,0 +1,16 @@
+POST http://localhost:3000/api/users/login/
+Content-Type: application/json
+
+{
+  "email":"karrisaisandeepreddy@gmail.com",
+  "password":"Kalki2898ad"
+}
+
+###
+GET http://localhost:3000/api/movies/
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcnJpc2Fpc2FuZGVlcHJlZGR5QGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcyNDcwMTg1MH0.BKmHA71c8LWWjvAui9tonvQ7GfEeLmII3uD7yxICUQ0
+
+
+###
+GET http://localhost:3000/api/movies/66cc541a90e69d03d5b0d436/
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcnJpc2Fpc2FuZGVlcHJlZGR5QGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcyNDcwMTg1MH0.BKmHA71c8LWWjvAui9tonvQ7GfEeLmII3uD7yxICUQ0
